@@ -2,12 +2,15 @@
 <html lang="en">
 
 <head>
-  <title>Contact</title>
+  <title>Portfolio</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <style>
+    body{
+      margin-bottom: 70px;
+    }
     .btn-default {
       color: white;
       background-color: #4aaaa5;
@@ -18,24 +21,34 @@
       font-family: 'Georgia', Times, Times New Roman, serif;
     }
 
-    h2{
-      position:absolute;
-      background-color: #4aaaa5;
-      color:white;
-      font-family: 'Georgia', Times, Times New Roman, serif;
-      bottom:50px;
-      width:100%;
-      
+    .work img {
+      width: 100%;
+      border: 0 none;
+      opacity: 0.8;
     }
 
-    h2 span{
-      color:white;
-      font-family: 'Georgia', Times, Times New Roman, serif;
+    .work h2 {
+      position: absolute;
+      background-color: #4aaaa5;
+      color: #fff;
+      bottom: 40px;
+      padding: 10px;
+      line-height: 30px;
+      border-bottom: 0;
+      width: 100%;
+      text-align: center;
+      font-size: 22px;
+      font-family: Georgia, Times, "Times New Roman", serif;
+      font-weight: lighter;
+
     }
-    .image{
-      position:relative;
-      width:100%;
+
+
+    .work {
+      position: relative;
+      width: 100%;
     }
+
     .img-responsive {
       padding-bottom: 40px;
     }
@@ -102,7 +115,7 @@
           <a href="index.html">About Me</a>
         </li>
         <li>
-          <a href="#">Portfolio</a>
+          <a href="">Portfolio</a>
         </li>
         <li>
           <a href="contact.html">Contact</a>
@@ -122,21 +135,32 @@
           <hr>
           <div class="row">
             <div class="col-sm-6">
-              <div class="image">
-              <img src="http://placekitten.com/230/160" class="img-responsive">
-              <h2><span>blah</span></h2>
+              <div class="work">
+                <img src="http://placekitten.com/230/160" class="img-responsive">
+                <h2>Hangman</h2>
               </div>
-              <div class="image">
-              <img src="http://placekitten.com/230/160" class="img-responsive">
-              <h2><span>blah</span></h2>
+              <div class="work">
+                <img src="http://placekitten.com/230/160" class="img-responsive">
+                <h2>Trivia Game</h2>
               </div>
-              <div class="image">
-              <img src="http://placekitten.com/230/160" class="img-responsive">
-              <h2><span>blah</span></h2>
+              <div class="work">
+                <img src="http://placekitten.com/230/160" class="img-responsive">
+                <h2>Rock Paper Scissors</h2>
+              </div>
+              <div class="col-sm-7"></div>
             </div>
 
-          </div>
-          <div class="col-sm-3">
+            <div class="col-sm-6">
+              <div class="work">
+                <img src="http://placekitten.com/230/160" class="img-responsive">
+                <h2>RPG Game</h2>
+              </div>
+              <div class="work">
+                <img src="http://placekitten.com/230/160" class="img-responsive">
+                <h2>Info Widget</h2>
+              </div>
+
+            </div>
           </div>
         </div>
       </div>
